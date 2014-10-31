@@ -1,7 +1,7 @@
 
 
 
-class WeatherController < ActionController::Base
+class WeatherController < ApplicationController
 
 require 'open-uri'
 require 'json'
